@@ -404,7 +404,7 @@ FRAGMENT
 
         $statusText = $casper->getStatusText();
 
-        $this->assertSame('OK', $statusText);
+        $this->assertEquals('OK', $statusText);
     }
 
     /**
